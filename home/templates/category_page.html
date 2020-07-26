@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}Categories{% endblock title %}
+{% block page_content %}
+<div class ="container">
+<div class="left-list col-md-6" style="float:left;">
+    <ul class="list-group"><h2>Categories</h2>
+        <li class="list-group-item active" style="background-color: white;"><a href="#">NailPolish</a></li>
+        <li class="list-group-item"><a href="#">Eyeshadow</a></li>
+        <li class="list-group-item"><a href="#">Lipstick</a></li>
+        <li class="list-group-item"><a href="#">Highlighter</a></li>
+        <li class="list-group-item"><a href="#">Make up bucket</a></li>
+        <li class="list-group-item"><a href="#">Brushes</a></li>
+
+      </ul>
+</div>
+<div class="right-content col-md-6" style="float: right;">
+    <div class="row-md-4">
+        <div class="card mb-4 shadow-sm">
+      <img src="/static/img/nail.jpg/" class="d-block w-100" alt="..." width = '100px' height = '225px'>
+        <div class="card-body">
+            <p class="card-text">NailPolish</p>
+        </div>
+        </div>
+    </div>
+    <div class="row-md-4">
+        <div class="card mb-4 shadow-sm">
+      <img src="/static/img/nail3.jpeg/" class="d-block w-100" alt="..." width = '100px' height = '225px'>
+        <div class="card-body">
+            <p class="card-text">NailPolish</p>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+{% endblock page_content %}
